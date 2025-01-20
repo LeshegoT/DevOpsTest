@@ -30,5 +30,6 @@ jobs:
           aws_access_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws_region: us-east-1
-          function_name: LeshegoApiFunction
-          zip_file: bundle.zip
+          function_name: 'LeshegoApiFunction'
+          package_type: 'zip'
+          zip_file: 'bundle.zip'
